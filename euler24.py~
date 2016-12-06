@@ -1,0 +1,5 @@
+import itertools
+
+perms = [''.join(p) for p in itertools.permutations('stack')]
+
+print(perms)
